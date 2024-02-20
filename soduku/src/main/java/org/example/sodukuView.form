@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.sodukuView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="708" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="511d1" class="javax.swing.JTable" binding="tblSoduku">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoCreateRowSorter value="false"/>
+          <autoResizeMode value="4"/>
+          <dropMode value="INSERT"/>
+          <enabled value="true"/>
+          <fillsViewportHeight value="false"/>
+          <font name="JetBrains Mono ExtraBold" size="24" style="1"/>
+          <intercellSpacing width="9" height="9"/>
+          <toolTipText value=""/>
+          <updateSelectionOnSort value="false"/>
+        </properties>
+      </component>
+      <component id="9a2b9" class="javax.swing.JButton" binding="btnDefault">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fill Default Data"/>
+        </properties>
+      </component>
+      <component id="bec0c" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear Table"/>
+        </properties>
+      </component>
+      <component id="aaed2" class="javax.swing.JLabel" binding="lblHeader">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GIVE ME YOUR SODUKU, HOPEFULLY YOU CAN SOLVE IT!!"/>
+        </properties>
+      </component>
+      <component id="942f6" class="javax.swing.JButton" binding="btnSolve">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CompletePuzzle"/>
+        </properties>
+      </component>
+      <component id="49270" class="javax.swing.JTextArea" binding="reportArea">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <lineWrap value="true"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <component id="6c6ae" class="javax.swing.JTextArea" binding="reportStatus">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
